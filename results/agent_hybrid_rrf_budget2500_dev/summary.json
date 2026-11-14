@@ -1,0 +1,33 @@
+{
+  "split": "dev",
+  "config": "hybrid_rrf_budget2500",
+  "cases": 17,
+  "provider_errors": 3,
+  "tool_use": {
+    "n": 14,
+    "N": 14
+  },
+  "grounded_answer": {
+    "0": 4,
+    "1": 2,
+    "2": 6,
+    "N": 12,
+    "mean": 1.1666666666666667
+  },
+  "citation_validity": {
+    "n": 12,
+    "N": 12
+  },
+  "answer_citation_coverage": {
+    "n": 8,
+    "N": 8
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 4,
+    "N": 12
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "strategy": "lexical_bm25",
+    "n": 15,
+    "hit1": 6,
+    "hit1_rate": 0.4,
+    "hit3": 10,
+    "hit3_rate": 0.6667,
+    "context_hit": 6,
+    "context_evidence_rate": 0.4,
+    "avg_context_chars": 1072.07,
+    "median_latency_ms": 4.88,
+    "mean_latency_ms": 5.16
+  },
+  {
+    "strategy": "dense_chroma",
+    "n": 15,
+    "hit1": 3,
+    "hit1_rate": 0.2,
+    "hit3": 5,
+    "hit3_rate": 0.3333,
+    "context_hit": 4,
+    "context_evidence_rate": 0.2667,
+    "avg_context_chars": 1022.33,
+    "median_latency_ms": 9.55,
+    "mean_latency_ms": 16.57
+  },
+  {
+    "strategy": "hybrid_rrf",
+    "n": 15,
+    "hit1": 4,
+    "hit1_rate": 0.2667,
+    "hit3": 7,
+    "hit3_rate": 0.4667,
+    "context_hit": 4,
+    "context_evidence_rate": 0.2667,
+    "avg_context_chars": 941.87,
+    "median_latency_ms": 14.3,
+    "mean_latency_ms": 15.51
+  }
+]

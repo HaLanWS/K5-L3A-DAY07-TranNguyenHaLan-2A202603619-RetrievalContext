@@ -1,0 +1,33 @@
+{
+  "split": "dev",
+  "config": "dense_exp_budget2500",
+  "cases": 17,
+  "provider_errors": 1,
+  "tool_use": {
+    "n": 16,
+    "N": 16
+  },
+  "grounded_answer": {
+    "0": 8,
+    "1": 1,
+    "2": 5,
+    "N": 14,
+    "mean": 0.7857142857142857
+  },
+  "citation_validity": {
+    "n": 8,
+    "N": 8
+  },
+  "answer_citation_coverage": {
+    "n": 6,
+    "N": 6
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 8,
+    "N": 14
+  }
+}

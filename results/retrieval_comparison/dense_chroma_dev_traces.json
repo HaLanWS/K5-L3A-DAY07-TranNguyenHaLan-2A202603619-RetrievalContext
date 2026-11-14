@@ -1,0 +1,1262 @@
+[
+  {
+    "query_id": "DEV_01",
+    "split": "dev",
+    "question": "Theo quy định, một năm học tại ĐHBK Hà Nội bao gồm những học kỳ nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 6,
+        "evidence": "Một năm học bao gồm hai học kỳ chính và một học kỳ hè"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p18_46",
+        "text": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp phải đăng ký theo các mốc thời gian quy định trong Khung kế hoạch thời gian năm học. 2. Học viên có thể đăng ký học nhiều hơn yêu cầu của CTĐT, nhưng khi đăng ký tốt nghiệp chỉ chọn đủ hoặc không nhiều hơn 3 TC theo yêu cầu của chương trình. Các",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 18,
+        "metadata": {
+          "strategy": "B_Structure",
+          "year": 2023,
+          "page": 18,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "section": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1.",
+          "document_id": "QCDT_2023"
+        },
+        "score": 0.7930056450762862,
+        "distance": 0.261025071144104,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p6_7",
+        "text": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, rèn luyện đã tích lũy của người học.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 6,
+        "metadata": {
+          "page": 6,
+          "document_id": "QCDT_2023",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "year": 2023,
+          "section": "Phần mở đầu",
+          "strategy": "B_Structure"
+        },
+        "score": 0.7924168146633339,
+        "distance": 0.2619621157646179,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p5_92",
+        "text": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ ĐÀO TẠO (Ban hành kèm theo Quyết định số /QĐ-ĐHBK, ngày tháng năm 2025 của Giám đốc Đại học Bách khoa Hà Nội) CHƯƠNG I NHỮNG QUY ĐỊNH CHUNG",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 5,
+        "metadata": {
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "document_id": "QCDT_2025",
+          "year": 2025,
+          "section": "Phần mở đầu",
+          "page": 5
+        },
+        "score": 0.7885586811569333,
+        "distance": 0.2681364417076111,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p18_46 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 18]\nĐiều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp phải đăng ký theo các mốc thời gian quy định trong Khung kế hoạch thời gian năm học. 2. Học viên có thể đăng ký học nhiều hơn yêu cầu của CTĐT, nhưng khi đăng ký tốt nghiệp chỉ chọn đủ hoặc không nhiều hơn 3 TC theo yêu cầu của chương trình. Các\n\n[B_QCDT_2023_p6_7 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 6]\n3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, rèn luyện đã tích lũy của người học.\n\n[B_QCDT_2025_p5_92 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 5]\nBỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ ĐÀO TẠO (Ban hành kèm theo Quyết định số /QĐ-ĐHBK, ngày tháng năm 2025 của Giám đốc Đại học Bách khoa Hà Nội) CHƯƠNG I NHỮNG QUY ĐỊNH CHUNG",
+    "context_ids": [
+      "B_QCDT_2023_p18_46",
+      "B_QCDT_2023_p6_7",
+      "B_QCDT_2025_p5_92"
+    ],
+    "context_chars": 1049,
+    "elapsed_ms": 102.27629999280907,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_02",
+    "split": "dev",
+    "question": "Sinh viên bị nâng một mức cảnh báo học tập khi có số tín chỉ không đạt trong học kỳ là bao nhiêu?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Nâng một mức cảnh báo học tập đối với sinh vi ên có số TC không đạt trong học kỳ lớn hơn 8"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p7_101",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 7,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "section": "Điều 4. Tín chỉ và học phần 1.",
+          "strategy": "B_Structure",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025"
+        },
+        "score": 0.8375027056125787,
+        "distance": 0.19402599334716797,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p6_10",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 6,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "section": "Điều 4. Tín chỉ và học phần 1.",
+          "page": 6,
+          "year": 2023
+        },
+        "score": 0.8342881915652596,
+        "distance": 0.1986265778541565,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p23_145",
+        "text": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT thạc sĩ. d) Các học phần được công nhận không được sử dụng để tính điểm trung bình tích lũy toàn khóa. đ) Học viên chuyển về tiếp tục học thạc sĩ tại ĐHBK Hà Nội từ cơ sở đào tạo khác ở trong nước hoặc ngoài nước sẽ được xem xét công nhận TC học phần tương đương, căn cứ kết quả học tập của học viên tại cơ sở đào tạo đó.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 23,
+        "metadata": {
+          "page": 23,
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "document_id": "QCDT_2025",
+          "section": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp)",
+          "strategy": "B_Structure"
+        },
+        "score": 0.828945533786717,
+        "distance": 0.2063518762588501,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p7_101 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 7]\nĐiều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.\n\n[B_QCDT_2023_p6_10 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 6]\nĐiều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.\n\n[B_QCDT_2025_p23_145 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 23]\nĐiều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT thạc sĩ. d) Các học phần được công nhận không được sử dụng để tính điểm trung bình tích lũy toàn khóa. đ) Học viên chuyển về tiếp tục học thạc sĩ tại ĐHBK Hà Nội từ cơ sở đào tạo khác ở trong nước hoặc ngoài nước sẽ được xem xét công nhận TC học phần tương đương, căn cứ kết quả học tập của học viên tại cơ sở đào tạo đó.",
+    "context_ids": [
+      "B_QCDT_2025_p7_101",
+      "B_QCDT_2023_p6_10",
+      "B_QCDT_2025_p23_145"
+    ],
+    "context_chars": 1273,
+    "elapsed_ms": 11.629000000539236,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_03",
+    "split": "dev",
+    "question": "Sinh viên bị áp dụng cảnh báo học tập mức 3 khi nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Áp dụng cản h báo học tập mức 3 đối với sinh viên có số TC nợ đọng từ đầu khóa lớn hơn 24"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p6_7",
+        "text": "3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, rèn luyện đã tích lũy của người học.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 6,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "section": "Phần mở đầu",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "page": 6,
+          "strategy": "B_Structure",
+          "year": 2023
+        },
+        "score": 0.7848077545136858,
+        "distance": 0.27419739961624146,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p17_41",
+        "text": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 T C và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và cá c CTĐT hợp tác q uốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém, cụ thể trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 17,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "year": 2023,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "page": 17,
+          "section": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp)"
+        },
+        "score": 0.767094260849018,
+        "distance": 0.30362075567245483,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p19_132",
+        "text": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo học tập với học kỳ hè. 2. Hạn chế khối lượng học tập là hình thức buộc những sinh viên đang bị cảnh báo học tập từ mức 2 trở lên đăng ký số TC học phần ít hơn bình thường tại học kỳ 1 của năm học, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 TC và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và các CTĐT hợp tác quốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém theo một trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 19,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "section": "Phần mở đầu",
+          "strategy": "B_Structure",
+          "page": 19,
+          "year": 2025
+        },
+        "score": 0.7609408040850525,
+        "distance": 0.3141626715660095,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p6_7 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 6]\n3 năm đó. Những cập nhật liên quan đến CTĐT của một khóa học chỉ được áp dụng khi không ảnh hưởng đến kết quả học tập, rèn luyện đã tích lũy của người học.\n\n[B_QCDT_2023_p17_41 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 17]\nĐiều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 T C và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và cá c CTĐT hợp tác q uốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém, cụ thể trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+    "context_ids": [
+      "B_QCDT_2023_p6_7",
+      "B_QCDT_2023_p17_41"
+    ],
+    "context_chars": 1056,
+    "elapsed_ms": 9.291999987908639,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_04",
+    "split": "dev",
+    "question": "Học kỳ hè có xem xét cảnh báo học tập đối với sinh viên không?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Không xem xét cảnh báo học tập với học kỳ hè"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p17_126",
+        "text": "13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đơn đề nghị thôi học và được xem xét cho thôi học. Sinh viên đã có quyết định cho thôi học không được tiếp nhận trở lại.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 17,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "year": 2025,
+          "page": 17,
+          "section": "Phần mở đầu",
+          "strategy": "B_Structure",
+          "document_id": "QCDT_2025"
+        },
+        "score": 0.8105580971160457,
+        "distance": 0.23371785879135132,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p23_145",
+        "text": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT thạc sĩ. d) Các học phần được công nhận không được sử dụng để tính điểm trung bình tích lũy toàn khóa. đ) Học viên chuyển về tiếp tục học thạc sĩ tại ĐHBK Hà Nội từ cơ sở đào tạo khác ở trong nước hoặc ngoài nước sẽ được xem xét công nhận TC học phần tương đương, căn cứ kết quả học tập của học viên tại cơ sở đào tạo đó.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 23,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure",
+          "year": 2025,
+          "section": "Điều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp)",
+          "page": 23
+        },
+        "score": 0.8005480512796508,
+        "distance": 0.24914425611495972,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p12_113",
+        "text": "Điều 10. Đăng ký học tập chương trình đại học 1. (tiếp): iệm..), sinh viên phải đăng ký đủ các lớp thành phần theo yêu cầu. c) Điều chỉnh đăng ký: sinh viên có thể chuyển lớp, hủy lớp hoặc đăng ký lớp bổ sung, kể cả lớp với các học phần chưa đăng ký trước. Mỗi học kỳ chính có hai đợt điều chỉnh đăng ký, kết thúc trước khi bắt đầu học kỳ. Riêng việc đăng ký bổ sung vào các lớp học phần đã mở chỉ thực hiện trong tuần đầu của học kỳ. Học kỳ hè không có đợt điều chỉnh đăng ký. 2. Số lượng TC đăng ký: a) Sinh viên không thuộc diện cảnh báo học tập theo quy định tại khoản 1 Điều 19 của Quy chế này được đăng ký tối đa 24 TC và tối thiểu 12 TC trong học kỳ chính, không áp dụng ngưỡng TC đăng ký tối thiểu với sinh viên trình độ năm cuối. Sinh viên được đăng ký tối đa 8 TC trong học kỳ hè. b) Sinh viên đang bị cảnh báo học tập bị giới hạn khối lượng đăng ký học tập theo quy định tại khoản 2 Điều 19 của Quy chế này. 3. Sau thời gian điều chỉnh đăng ký, sinh viên có thể đề nghị rút đăng ký học phần để không tính kết quả học tập. 4. Đối với học phần có giờ lên lớp, chỉ mở lớp khi có tối thiểu 20 sinh viên đăng ký học. Các trường hợp ngoại lệ được giải quyết như sau: a) Xem xét mở lớp cho các ngành học hoặc các chương trình ELITECH có ít sinh viên để tạo điều kiện tối đa cho sinh viên học theo kế hoạch học tập chuẩn. b) Xem xét mở lớp học phần có từ 5 đến 19 sinh viên đăng ký học theo đề nghị của sinh viên, áp dụng hệ số học phí theo quy định.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 12,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "year": 2025,
+          "page": 12,
+          "section": "Điều 10. Đăng ký học tập chương trình đại học 1. (tiếp)",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure"
+        },
+        "score": 0.7909867613141781,
+        "distance": 0.2642436623573303,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p17_126 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 17]\n13 5. Tự nguyện thôi học: Sinh viên thấy không có đủ điều kiện hoặc không muốn tiếp tục học tại ĐHBK Hà Nội có thể làm đơn đề nghị thôi học và được xem xét cho thôi học. Sinh viên đã có quyết định cho thôi học không được tiếp nhận trở lại.\n\n[B_QCDT_2025_p23_145 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 23]\nĐiều 28. Học bổ sung, công nhận tín chỉ 1. (tiếp): ên học chương trình tích hợp cử nhân-thạc sĩ của ĐHBK Hà Nội được đăng ký học trước tối đa 15 TC các học phần thuộc CTĐT thạc sĩ. d) Các học phần được công nhận không được sử dụng để tính điểm trung bình tích lũy toàn khóa. đ) Học viên chuyển về tiếp tục học thạc sĩ tại ĐHBK Hà Nội từ cơ sở đào tạo khác ở trong nước hoặc ngoài nước sẽ được xem xét công nhận TC học phần tương đương, căn cứ kết quả học tập của học viên tại cơ sở đào tạo đó.",
+    "context_ids": [
+      "B_QCDT_2025_p17_126",
+      "B_QCDT_2025_p23_145"
+    ],
+    "context_chars": 908,
+    "elapsed_ms": 9.91490000160411,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_05",
+    "split": "dev",
+    "question": "Sinh viên thuộc CTĐT chuẩn bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 T C và tối thiểu 8 TC cho một học kỳ chính"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p13_116",
+        "text": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hiện tại đơn vị liên kết hoặc tại ĐHBK Hà Nội. 4. Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng chương trình học tập toàn khóa. 5. Sinh viên đã có quyết định cho thôi học hoặc buộc thôi học, nếu thi lại và trúng tuyển thì phải học lại toàn bộ chương trình, ngoại trừ chương trình Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 13,
+        "metadata": {
+          "page": 13,
+          "document_id": "QCDT_2025",
+          "strategy": "B_Structure",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "section": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp)"
+        },
+        "score": 0.8617354379397962,
+        "distance": 0.16044896841049194,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p7_101",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 7,
+        "metadata": {
+          "page": 7,
+          "document_id": "QCDT_2025",
+          "section": "Điều 4. Tín chỉ và học phần 1.",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure"
+        },
+        "score": 0.8541175168506201,
+        "distance": 0.17079907655715942,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p15_35",
+        "text": "Điều 17. Chuyển chương trình đào tạo, hình thức đào tạo 1. Sinh viên hoàn thành năm học thứ nhất được xem xét chuyển sang học một CTĐT khác nếu đáp ứng đầy đủ các điều kiện sau: a) Đáp ứng điều kiện trúng tuyển của CTĐT muốn chuyển sang học; b) Có số TC tích lũy t ối thiểu bằng khối lượng thiết kế theo kế hoạch học tập chuẩn của CTĐT và không bị điểm F; c) Xếp loại học lực căn cứ theo điểm trung bình tích lũy (CPA) đạt từ loại khá trở lên; d) Không bị cảnh báo học tập hoặc bị xét thi hành kỷ luật; 2. Không cho phép chuyển CTĐT đối với sinh viên đã học từ năm thứ hai trở đi. 3. Sinh viên thuộc các trường hợp sau được quyền đề nghị chuyển sang học mộ t chương trình thuộc hình thức VLVH của ĐHBK Hà Nội nếu có nguyện vọng:",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 15,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "page": 15,
+          "section": "Điều 17. Chuyển chương trình đào tạo, hình thức đào tạo 1.",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "year": 2023
+        },
+        "score": 0.8485964071405608,
+        "distance": 0.17841649055480957,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p13_116 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 13]\nĐiều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hiện tại đơn vị liên kết hoặc tại ĐHBK Hà Nội. 4. Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng chương trình học tập toàn khóa. 5. Sinh viên đã có quyết định cho thôi học hoặc buộc thôi học, nếu thi lại và trúng tuyển thì phải học lại toàn bộ chương trình, ngoại trừ chương trình Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ.\n\n[B_QCDT_2025_p7_101 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 7]\nĐiều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+    "context_ids": [
+      "B_QCDT_2025_p13_116",
+      "B_QCDT_2025_p7_101"
+    ],
+    "context_chars": 907,
+    "elapsed_ms": 10.453700000653043,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_06",
+    "split": "dev",
+    "question": "Sinh viên chương trình ELITECH bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Sinh viên thuộc các chương trình ELITECH và cá c CTĐT hợp tác q uốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p13_116",
+        "text": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hiện tại đơn vị liên kết hoặc tại ĐHBK Hà Nội. 4. Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng chương trình học tập toàn khóa. 5. Sinh viên đã có quyết định cho thôi học hoặc buộc thôi học, nếu thi lại và trúng tuyển thì phải học lại toàn bộ chương trình, ngoại trừ chương trình Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 13,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "page": 13,
+          "section": "Điều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp)",
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "year": 2025
+        },
+        "score": 0.8481707033164175,
+        "distance": 0.17900794744491577,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p7_101",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 7,
+        "metadata": {
+          "year": 2025,
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "document_id": "QCDT_2025",
+          "page": 7,
+          "section": "Điều 4. Tín chỉ và học phần 1."
+        },
+        "score": 0.8268354295381122,
+        "distance": 0.2094305157661438,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p6_10",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 6,
+        "metadata": {
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "year": 2023,
+          "section": "Điều 4. Tín chỉ và học phần 1.",
+          "document_id": "QCDT_2023",
+          "page": 6
+        },
+        "score": 0.8231678862579835,
+        "distance": 0.2148190140724182,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p13_116 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 13]\nĐiều 11. Công nhận kết quả học tập và chuyển đổi tín chỉ 1. (tiếp): án tốt nghiệp/khóa luận tốt nghiệp được phép thực hiện tại đơn vị liên kết hoặc tại ĐHBK Hà Nội. 4. Khối lượng tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng chương trình học tập toàn khóa. 5. Sinh viên đã có quyết định cho thôi học hoặc buộc thôi học, nếu thi lại và trúng tuyển thì phải học lại toàn bộ chương trình, ngoại trừ chương trình Giáo dục quốc phòng - an ninh đã được cấp chứng chỉ.\n\n[B_QCDT_2025_p7_101 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 7]\nĐiều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.\n\n[B_QCDT_2023_p6_10 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 6]\nĐiều 4. Tín chỉ và học phần 1. Tín chỉ (TC) là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+    "context_ids": [
+      "B_QCDT_2025_p13_116",
+      "B_QCDT_2025_p7_101",
+      "B_QCDT_2023_p6_10"
+    ],
+    "context_chars": 1259,
+    "elapsed_ms": 9.1312000004109,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_07",
+    "split": "dev",
+    "question": "Trường hợp nào sinh viên bị buộc thôi học do cảnh báo học tập?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 17,
+        "evidence": "Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p17_41",
+        "text": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 T C và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và cá c CTĐT hợp tác q uốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém, cụ thể trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 17,
+        "metadata": {
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "section": "Điều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp)",
+          "year": 2023,
+          "document_id": "QCDT_2023",
+          "page": 17
+        },
+        "score": 0.7955452693903424,
+        "distance": 0.25699949264526367,
+        "retriever": "dense_chroma",
+        "hit": true
+      },
+      {
+        "id": "B_QCDT_2025_p19_132",
+        "text": "15 tập này không phụ thuộc vào điều kiện nâng mức cảnh báo học tập tại mục a và mục b khoản này. e) Không xét cảnh báo học tập với học kỳ hè. 2. Hạn chế khối lượng học tập là hình thức buộc những sinh viên đang bị cảnh báo học tập từ mức 2 trở lên đăng ký số TC học phần ít hơn bình thường tại học kỳ 1 của năm học, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 TC và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và các CTĐT hợp tác quốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém theo một trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 19,
+        "metadata": {
+          "section": "Phần mở đầu",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "page": 19,
+          "strategy": "B_Structure",
+          "year": 2025,
+          "document_id": "QCDT_2025"
+        },
+        "score": 0.7708319865656332,
+        "distance": 0.2972995638847351,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p7_101",
+        "text": "Điều 4. Tín chỉ và học phần 1. Tín chỉ là đơn vị đo khối lượng học tập. Một TC được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 7,
+        "metadata": {
+          "document_id": "QCDT_2025",
+          "section": "Điều 4. Tín chỉ và học phần 1.",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure",
+          "page": 7
+        },
+        "score": 0.7651323764125545,
+        "distance": 0.30696338415145874,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p17_41 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 17]\nĐiều 19. Cảnh báo học tập và buộc thôi học 1. (tiếp): i ngữ đăng ký số TC học phần ít hơ n bình thường, cụ thể như sau: a) Sinh viên thuộc các CTĐT chuẩn được đăng ký tối đa 14 T C và tối thiểu 8 TC cho một học kỳ chính; b) Sinh viên thuộc các chương trình ELITECH và cá c CTĐT hợp tác q uốc tế được đăng ký tối đa 18 TC và tối thiểu 8 TC cho một học kỳ chính. 3. Buộc thôi học là hình thức áp dụng đối với những sinh viên có kết quả học tập rất kém, cụ thể trong các trường hợp như sau: a) Sinh viên bị cảnh báo học tập mức 3 lần thứ hai liên tiếp. b) Sinh viên học chậm tiến độ quá thời gian cho phép, hoặc không còn đủ khả năng tốt nghiệp trong thời gian cho phép theo quy định tại khoản 3 Điều 3 của Quy chế này.",
+    "context_ids": [
+      "B_QCDT_2023_p17_41"
+    ],
+    "context_chars": 809,
+    "elapsed_ms": 8.262800009106286,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "DEV_08",
+    "split": "dev",
+    "question": "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 16,
+        "evidence": "Sinh viên được đăng ký học c hương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p16_37",
+        "text": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học phần của một CTĐT khác, nhưng chỉ được hưởng các quyền lợi chính thức và được xem xét công nhận tốt nghiệp chương trình thứ hai khi đã đăng ký thành công học chương trình thứ hai. 2. Sinh viên được đăng ký học c hương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Tại thời điểm đăng ký, sinh viên phải có học lực tính theo điểm t rung bình tích lũy (CPA) xếp loại từ trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh. 3. Trong thời gian học CTĐT thứ hai, sinh viên phải luôn đảm bảo khối lượng học tập ngành thứ nhất theo quy định với điể m CPA từ trung bình trở lên và không nằm trong diện bị cảnh báo học tập. Sin h viên không duy trì được kết quả này sẽ bị loại khỏi danh sách đăng ký học chương trình thứ hai. 4. Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương tr",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 16,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "page": 16,
+          "section": "Điều 18. Học cùng lúc hai chương trình 1.",
+          "year": 2023
+        },
+        "score": 0.8167628721135324,
+        "distance": 0.22434556484222412,
+        "retriever": "dense_chroma",
+        "hit": true
+      },
+      {
+        "id": "B_QCDT_2023_p16_38",
+        "text": "Điều 18. Học cùng lúc hai chương trình 1. (tiếp): p học đối với sinh viên học cùng lúc hai chương trình là thời gian tối đa quy định cho chương trình thứ nhất. 5. Khi học chương tr ình thứ hai, sinh viên được công nhận TC của những học phần có nội dung và khối lư ợng học tập tương đương ở chương trình thứ nhất. Những học phần được công nhận tương đương này sẽ được cho điểm miễn (điểm R). 6. Sinh viên chỉ được xét tốt nghiệp chương trì nh thứ hai, nếu có đủ điều kiện tốt nghiệp ở c hương trình thứ nhất và đã đăng kí xét muộn nhất 02 năm trước thời điểm xét tốt nghiệp chương trình thứ hai.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 16,
+        "metadata": {
+          "section": "Điều 18. Học cùng lúc hai chương trình 1. (tiếp)",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "page": 16,
+          "year": 2023,
+          "document_id": "QCDT_2023"
+        },
+        "score": 0.8151976502085707,
+        "distance": 0.22669637203216553,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p18_129",
+        "text": "Điều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào tạo chính quy có thể đăng ký học thêm các học phần của một CTĐT khác, nhưng chỉ được hưởng các quyền lợi chính thức và được xem xét công nhận tốt nghiệp chương trình thứ hai khi đã đăng ký thành công học chương trình thứ hai. 2. Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Tại thời điểm đăng ký, sinh viên phải có học lực tính theo điểm trung bình tích lũy (CPA) xếp loại từ trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh. 3. Trong thời gian học CTĐT thứ hai, sinh viên phải luôn đảm bảo khối lượng học tập ngành thứ nhất theo quy định với điểm CPA từ trung bình trở lên và không nằm trong diện bị cảnh báo học tập. Sinh viên không duy trì được kết quả này sẽ bị loại khỏi danh sách đăng ký học chương trình thứ hai. 4. Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương tr",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 18,
+        "metadata": {
+          "section": "Điều 18. Học cùng lúc hai chương trình 1.",
+          "document_id": "QCDT_2025",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "page": 18,
+          "strategy": "B_Structure"
+        },
+        "score": 0.8131874555441517,
+        "distance": 0.22972875833511353,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p16_37 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 16]\nĐiều 18. Học cùng lúc hai chương trình 1. Sinh viên thuộc hình thức đào t ạo chính quy có thể đăng ký học thêm các học phần của một CTĐT khác, nhưng chỉ được hưởng các quyền lợi chính thức và được xem xét công nhận tốt nghiệp chương trình thứ hai khi đã đăng ký thành công học chương trình thứ hai. 2. Sinh viên được đăng ký học c hương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất. Tại thời điểm đăng ký, sinh viên phải có học lực tính theo điểm t rung bình tích lũy (CPA) xếp loại từ trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh. 3. Trong thời gian học CTĐT thứ hai, sinh viên phải luôn đảm bảo khối lượng học tập ngành thứ nhất theo quy định với điể m CPA từ trung bình trở lên và không nằm trong diện bị cảnh báo học tập. Sin h viên không duy trì được kết quả này sẽ bị loại khỏi danh sách đăng ký học chương trình thứ hai. 4. Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương tr",
+    "context_ids": [
+      "B_QCDT_2023_p16_37"
+    ],
+    "context_chars": 1093,
+    "elapsed_ms": 8.512900007190183,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "DEV_09",
+    "split": "dev",
+    "question": "Điểm đạt của học phần là từ điểm chữ nào trở lên?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 8,
+        "evidence": "Điểm đạt là điểm học phần từ D trở lên, riêng đối với các học phần tốt nghiệp phải từ C trở lên"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p28_160",
+        "text": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng 3-4 học phần tiến sĩ. b) NCS phải thực hiện quy trình đăng ký học từ tài khoản học tập trong thời hạn 4 tuần đầu của học kỳ. Học phần tiến sĩ được tổ chức giảng dạy cho lớp có 5 NCS trở lên; trong trường hợp dưới 5 NCS, học phần được thực hiện dưới hình thức hướng dẫn, làm đồ án, khoá luận hoặc tiểu luận để thay thế giờ lên lớp.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 28,
+        "metadata": {
+          "section": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp)",
+          "year": 2025,
+          "page": 28,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "document_id": "QCDT_2025",
+          "strategy": "B_Structure"
+        },
+        "score": 0.8151483386167242,
+        "distance": 0.2267705798149109,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p32_91",
+        "text": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Những sinh viên thuộc các khóa 64 trở về trước tốt nghiệp chương trình kỹ sư với thời gian học tập chuẩn 5 năm, khối lượng từ 156 -164 TC được cấp văn bằ ng kỹ sư bậc đại học theo Quyết định số 66/QĐ -ĐHBK-ĐT ngày 04/12/2018 của Hiệu trưởng Trường ĐHBK Hà Nội. 2. Các quy chế, quy định về đào tạo trước đây trái với các điều, khoản của Quy chế này đều hết hiệu lực thi hành./.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 32,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "section": "Nội dung tiếp nối",
+          "year": 2023,
+          "document_id": "QCDT_2023",
+          "page": 32
+        },
+        "score": 0.8079394620975229,
+        "distance": 0.23771649599075317,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p10_20",
+        "text": "Điều 9. Học phí 1. (tiếp): vọng thì đóng một nửa (50%) học phí của học kỳ đó. Quy định này không áp dụng với kỳ hè. 5. NCS đóng mức học phí theo năm học kể cả năm được gia hạn, trong đó đã bao gồm học phí của các học phần trong CTĐT tiến sĩ, không bao gồm các học phần bổ sung. CHƯƠNG II ĐÀO TẠO ĐẠI HỌC",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 10,
+        "metadata": {
+          "section": "Điều 9. Học phí 1. (tiếp)",
+          "strategy": "B_Structure",
+          "year": 2023,
+          "page": 10,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "document_id": "QCDT_2023"
+        },
+        "score": 0.806133938652349,
+        "distance": 0.24048864841461182,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p28_160 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 28]\nĐiều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng 3-4 học phần tiến sĩ. b) NCS phải thực hiện quy trình đăng ký học từ tài khoản học tập trong thời hạn 4 tuần đầu của học kỳ. Học phần tiến sĩ được tổ chức giảng dạy cho lớp có 5 NCS trở lên; trong trường hợp dưới 5 NCS, học phần được thực hiện dưới hình thức hướng dẫn, làm đồ án, khoá luận hoặc tiểu luận để thay thế giờ lên lớp.\n\n[B_QCDT_2023_p32_91 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 32]\n29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Những sinh viên thuộc các khóa 64 trở về trước tốt nghiệp chương trình kỹ sư với thời gian học tập chuẩn 5 năm, khối lượng từ 156 -164 TC được cấp văn bằ ng kỹ sư bậc đại học theo Quyết định số 66/QĐ -ĐHBK-ĐT ngày 04/12/2018 của Hiệu trưởng Trường ĐHBK Hà Nội. 2. Các quy chế, quy định về đào tạo trước đây trái với các điều, khoản của Quy chế này đều hết hiệu lực thi hành./.",
+    "context_ids": [
+      "B_QCDT_2025_p28_160",
+      "B_QCDT_2023_p32_91"
+    ],
+    "context_chars": 1125,
+    "elapsed_ms": 8.5042999999132,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_10",
+    "split": "dev",
+    "question": "Luận văn thạc sĩ đạt yêu cầu khi điểm bảo vệ đạt từ mức nào theo thang điểm?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 23,
+        "evidence": "Luận văn đạt yêu cầu khi điểm bảo vệ luận văn đạt từ điểm C trở lên và không có điểm của thành viên Hội đồng nào dưới 5 theo thang điểm 10"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p25_153",
+        "text": "Điều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công nhận tốt nghiệp: a) Luận văn đạt yêu cầu. b) Hoàn thành việc nộp quyển luận văn đã được chỉnh sửa theo kết luận của Hội đồng đánh giá luận văn. Công khai toàn văn quyển luận văn trên trang thông tin điện tử thuộc ĐHBK Hà Nội theo quy định trong thời gian ít nhất 30 ngày , trừ một số đề tài thuộc các lĩnh vực cần bảo mật thực hiện theo quy định của Nhà nước.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 25,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "section": "Điều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1.",
+          "page": 25,
+          "strategy": "B_Structure",
+          "document_id": "QCDT_2025",
+          "year": 2025
+        },
+        "score": 0.8115041432516369,
+        "distance": 0.23227959871292114,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p23_59",
+        "text": "20 nghiệm thu, hoặc đề tài nghiên cứu đã được nghiệm thu do người hướng dẫn chủ trì và học viên là người thực hiện chính để giải quyết các vấn đề nghiên cứu của luận văn. Điểm thưởng công bố khoa học do Hội đồ ng đánh giá luận văn quyết định, nằm trong khoảng từ 0,5 đến 1,5. 2. Luận văn đạt yêu cầu khi điểm bảo vệ luận văn đạt từ điểm C trở lên và không có điểm của thành viên Hội đồng nào dưới 5 theo thang điểm 10.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 23,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "page": 23,
+          "section": "Phần mở đầu",
+          "strategy": "B_Structure",
+          "year": 2023,
+          "document_id": "QCDT_2023"
+        },
+        "score": 0.7967444123182119,
+        "distance": 0.2551076412200928,
+        "retriever": "dense_chroma",
+        "hit": true
+      },
+      {
+        "id": "B_QCDT_2023_p23_61",
+        "text": "Điều 33. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công nhận tốt nghiệp: a) Luận văn đạt yêu cầu. b) Hoàn thành việc nộp q uyển luận văn đã được chỉnh sửa theo kết luận của Hội đồng đánh giá luận văn.Công khai toàn văn quyển luận văn trê n website theo quy định trong thời gian ít nhất 30 ngày, trừ một số đề tài thuộc các lĩnh vực cần bảo mật thực hiện theo quy định của Nhà nước. c) Đã nộp quyển luận văn tốt nghiệp cho thư viện theo quy cách của bản luận văn do ĐHBK Hà Nội quy định. d) Không bị truy cứ u trác h nhiệm hình sự và k hông trong t hời gian bị lỷ luật, đình chỉ học tập. 2. Hạng tốt nghiệp thạc sĩ được xếp dựa trên điểm trung bình tích lũy toàn khóa tính cho toàn bộ các học phần đã học trong chương trìn h, kể cả luận văn thạc sĩ. Riêng các học phần được miễn học không đưa vào tính CPA để xếp hạng tốt nghiệp. CPA 2,0 - 2,49 2,5 - 3,19 3,2 - 3,59 3,6 - 4,0 Xếp loại Trung bình Khá Giỏi Xuất sắc 3. Học viên đạt đủ điều",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 23,
+        "metadata": {
+          "document_id": "QCDT_2023",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "section": "Điều 33. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1.",
+          "strategy": "B_Structure",
+          "page": 23,
+          "year": 2023
+        },
+        "score": 0.7951561174643316,
+        "distance": 0.2576146721839905,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p25_153 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 25]\nĐiều 34. Điều kiện tốt nghiệp thạc sĩ và xếp hạng tốt nghiệp 1. Học viên có đủ các điều kiện sau đây thì được xét công nhận tốt nghiệp: a) Luận văn đạt yêu cầu. b) Hoàn thành việc nộp quyển luận văn đã được chỉnh sửa theo kết luận của Hội đồng đánh giá luận văn. Công khai toàn văn quyển luận văn trên trang thông tin điện tử thuộc ĐHBK Hà Nội theo quy định trong thời gian ít nhất 30 ngày , trừ một số đề tài thuộc các lĩnh vực cần bảo mật thực hiện theo quy định của Nhà nước.\n\n[B_QCDT_2023_p23_59 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 23]\n20 nghiệm thu, hoặc đề tài nghiên cứu đã được nghiệm thu do người hướng dẫn chủ trì và học viên là người thực hiện chính để giải quyết các vấn đề nghiên cứu của luận văn. Điểm thưởng công bố khoa học do Hội đồ ng đánh giá luận văn quyết định, nằm trong khoảng từ 0,5 đến 1,5. 2. Luận văn đạt yêu cầu khi điểm bảo vệ luận văn đạt từ điểm C trở lên và không có điểm của thành viên Hội đồng nào dưới 5 theo thang điểm 10.",
+    "context_ids": [
+      "B_QCDT_2025_p25_153",
+      "B_QCDT_2023_p23_59"
+    ],
+    "context_chars": 1078,
+    "elapsed_ms": 9.553099996992387,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "DEV_11",
+    "split": "dev",
+    "question": "Khung kế hoạch thời gian năm học của ĐHBK Hà Nội áp dụng cho đối tượng nào, ngoại trừ trường hợp nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 6,
+        "evidence": "ngoại trừ các học phần tiến sĩ được bố trí l ịch giảng dạy và lịch thi riêng theo tiến độ học tập của nghiên cứu sinh"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p18_46",
+        "text": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp phải đăng ký theo các mốc thời gian quy định trong Khung kế hoạch thời gian năm học. 2. Học viên có thể đăng ký học nhiều hơn yêu cầu của CTĐT, nhưng khi đăng ký tốt nghiệp chỉ chọn đủ hoặc không nhiều hơn 3 TC theo yêu cầu của chương trình. Các",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 18,
+        "metadata": {
+          "section": "Điều 23. Đăng ký tốt nghiệp kỹ sư 1.",
+          "document_id": "QCDT_2023",
+          "year": 2023,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "page": 18
+        },
+        "score": 0.8142072556642899,
+        "distance": 0.22818851470947266,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p6_8",
+        "text": "Điều 3. Thời gian và kế hoạch học tập 1. ĐHBK Hà Nội tổ chức đào tạo theo năm học và học kỳ. Một năm học bao gồm hai học kỳ chính và một học kỳ hè . Một học kỳ chính có thể được chia thành 2 đợt A và B, mỗi đợt có thời gian bằn g một nửa học kỳ chính. Học kỳ hè được tổ chức theo yêu cầu của người học và kh ả năng bố tr í giảng viên của trường/khoa phụ trách giảng dạy. 2. Lịch đăng ký học tập, thời khóa biểu, lịch thi và kế hoạch xét công n hận tốt nghiệp trong năm học tuân theo Khung kế hoạch thời gian năm học của ĐHBK Hà Nội, ngoại trừ các học phần tiến sĩ được bố trí l ịch giảng dạy và lịch thi riêng theo tiến độ học tập của nghiên cứu sinh (NCS). 3. Căn cứ kế hoạch học t ập chuẩn toàn khóa của chương trình, người học tự xây dựng kế hoạch học tập theo từng học kỳ. a) Người học được phép tốt nghiệp sớm hơn khi đã đáp ứng toàn bộ điều kiện tốt nghiệp của CTĐT hoặc tốt nghiệp chậm hơn so với thời gian theo kế hoạch học tập chuẩn, nhưng thời gia n chậm tiến độ không đ ược vượt quá 5 học ",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 6,
+        "metadata": {
+          "section": "Điều 3. Thời gian và kế hoạch học tập 1.",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "page": 6,
+          "year": 2023,
+          "document_id": "QCDT_2023"
+        },
+        "score": 0.7972979375688157,
+        "distance": 0.25423628091812134,
+        "retriever": "dense_chroma",
+        "hit": true
+      },
+      {
+        "id": "B_QCDT_2025_p28_160",
+        "text": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp): nghiên cứu. a) Mỗi NCS phải hoàn thành tối thiểu 8 TC tương ứng 3-4 học phần tiến sĩ. b) NCS phải thực hiện quy trình đăng ký học từ tài khoản học tập trong thời hạn 4 tuần đầu của học kỳ. Học phần tiến sĩ được tổ chức giảng dạy cho lớp có 5 NCS trở lên; trong trường hợp dưới 5 NCS, học phần được thực hiện dưới hình thức hướng dẫn, làm đồ án, khoá luận hoặc tiểu luận để thay thế giờ lên lớp.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 28,
+        "metadata": {
+          "year": 2025,
+          "document_id": "QCDT_2025",
+          "page": 28,
+          "section": "Điều 38. Học phần bổ sung và học phần tiến sĩ 1. (tiếp)",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure"
+        },
+        "score": 0.7964879591674741,
+        "distance": 0.2555117607116699,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p18_46 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 18]\nĐiều 23. Đăng ký tốt nghiệp kỹ sư 1. ĐHBK Hà N ội xét tốt nghiệp nhiều đợt trong năm. Học viên muốn được xét tốt nghiệp phải đăng ký theo các mốc thời gian quy định trong Khung kế hoạch thời gian năm học. 2. Học viên có thể đăng ký học nhiều hơn yêu cầu của CTĐT, nhưng khi đăng ký tốt nghiệp chỉ chọn đủ hoặc không nhiều hơn 3 TC theo yêu cầu của chương trình. Các",
+    "context_ids": [
+      "B_QCDT_2023_p18_46"
+    ],
+    "context_chars": 458,
+    "elapsed_ms": 8.764600002905354,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_12",
+    "split": "dev",
+    "question": "Chương trình tích hợp cử nhân - kỹ sư có thời gian thiết kế là bao nhiêu năm?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 5,
+        "evidence": "Chương trình tích hợp cử nhân -kỹ sư có thời gian thiết kế là 5,5 năm"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p5_5",
+        "text": "2 3. CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức của hai bậc trình độ , đảm bảo học tập liên tục giữa các bậc đào tạo nhằm tối ưu hóa thời gian đào tạo cho người học. Chương trình tích hợp cử nhân -kỹ sư có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC; bao gồm hai bậc trìn h độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân) và Kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư, tương đương trình độ thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền tảng liên quan chặt chẽ đến các chuyên ngành kỹ sư. 4. Chương trình ELITECH (từ viết tắt của cụm từ Elite Techn ology Program) là CTĐT chất lượng cao (tên gọi theo Thông tư 23/2014/TT-BGDĐT), thể hiện ở một số yếu tố sau: chất lượng đầu vào; ch uẩn đầu ra; giá trị văn bằng tốt nghiệp; phương thức tổ chức đào tạo; điều kiện hỗ trợ đào tạo; nội dung, phương pháp và ngôn ngữ dạy và học. Chương trình EL",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 5,
+        "metadata": {
+          "page": 5,
+          "year": 2023,
+          "document_id": "QCDT_2023",
+          "section": "Nội dung tiếp nối",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure"
+        },
+        "score": 0.8054128113571489,
+        "distance": 0.24159932136535645,
+        "retriever": "dense_chroma",
+        "hit": true
+      },
+      {
+        "id": "B_QCDT_2025_p6_96",
+        "text": "2 ưu hóa thời gian đào tạo cho người học. CTĐT tích hợp cử nhân-kỹ sư, cử nhân-thạc sĩ có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC. CTĐT tích hợp bao gồm hai bậc trình độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân ) và kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư trình độ bậc 7) hoặc thạc sĩ (thời gian đào tạo 1,5 năm, cấp bằng thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền tảng liên quan chặt chẽ đến các định hướng chuyên sâu của chương trình kỹ sư, thạc sĩ. 4. Chương trình ELITECH (từ viết tắt của cụm từ Elite Technology Program) là CTĐT chất lượng cao, thể hiện ở một số yếu tố sau: chất lượng đầu vào; chuẩn đầu ra; giá trị văn bằng tốt nghiệp; phương thức tổ chức đào tạo; điều kiện hỗ trợ đào tạo; nội dung, phương pháp và ngôn ngữ dạy và học. Chương trình ELITECH có mức độ quốc tế hóa cao với ngôn ngữ dạy và học chủ yếu bằng tiếng Anh hoặc có thể bằng các ngoại ",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 6,
+        "metadata": {
+          "year": 2025,
+          "section": "Nội dung tiếp nối",
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "page": 6,
+          "document_id": "QCDT_2025"
+        },
+        "score": 0.7961604084306783,
+        "distance": 0.25602829456329346,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p5_6",
+        "text": "hương pháp và ngôn ngữ dạy và học. Chương trình ELITECH có mức độ quốc tế hóa cao với ngôn ngữ dạy và học chủ yếu bằng tiếng Anh hoặc có t hể bằng các ngoại ngữ khác đáp ứng mục tiêu của chương trình. CTĐT được xây dựng trên cơ sở tham chiếu chương trình tương đương của các trường đại học nước ngoài có danh tiếng; chương trình có các điều kiện thuận lợi để trao đổi sinh viên, công nhận tín chỉ, cấp song bằng cùng với các trường đối tác. 5. Thời gian và khối lượng học tập chuẩn đối với các CTĐT theo hình thức chính quy không kể các môn học bổ sung kiến thức được quy định như sau: Chương trình Người học Thời gian Khối lượng tối thiểu Cử nhân Tốt nghiệp THPT 4 năm 132 tín chỉ Thạc sĩ Tốt nghiệp cử nhân 2 năm 60 tín chỉ Tốt nghiệp cử nhân theo chương trình tích hợp 5 1,5 năm 48 tín chỉ Tiến sĩ Tốt nghiệp thạc sĩ 3 năm 90 tín chỉ Tốt nghiệp đại học 4 năm 120 tín chỉ Kỹ sư 6 Tốt nghiệp cử nhân theo chương trình tích hợp 1,5 năm 48 tín chỉ 6. Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học dài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng CTĐT. 7. Các CTĐT cấp bằng cử nhân, kỹ sư, thạc sĩ, tiến sĩ được công bố công khai trước khi tuyển sinh, phù hợp với các quy định hiện hành của Bộ Giáo dục và Đào tạo và chuẩn CTĐT của ĐHBK Hà Nội. 8. CTĐT có thể được điều chỉnh và áp dụng cho từng khóa tuyển sinh; sinh viên, học viên nhập học năm nào sẽ được áp d ụng phiên bả n chương trình giảng dạy của 5 Chương trình đào tạo cử nhân -thạc sĩ tích hợp là chương trình được thiết kế một cách tổng thể, liên tục giữa bậc đào tạo đại học trình độ cử nhân và đào tạo sau đại học ở trình độ thạc sĩ . Sinh viên được tích lũy trước 12TC-15TC của chương trình bậc thạc sĩ khi tốt nghiệp cử nhân. 6 Chương trình đào tạo cử nhân-kỹ sư tích hợp là chương trình được thiết kế một cách tổng thể, liên tục giữa bậc đào tạo đại học cấp bằng cử nhân và bậc đào tạo kỹ sư cấp bằng kỹ sư chuyên sâu đặc thù.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 5,
+        "metadata": {
+          "strategy": "B_Structure",
+          "document_id": "QCDT_2023",
+          "year": 2023,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "section": "Nội dung tiếp nối (tiếp)",
+          "page": 5
+        },
+        "score": 0.7794288802254791,
+        "distance": 0.2829906940460205,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p5_5 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 5]\n2 3. CTĐT tích hợp là chương trình được thiết kế tổng thể theo hướng tích hợp kiến thức của hai bậc trình độ , đảm bảo học tập liên tục giữa các bậc đào tạo nhằm tối ưu hóa thời gian đào tạo cho người học. Chương trình tích hợp cử nhân -kỹ sư có thời gian thiết kế là 5,5 năm và khối lượng học tập 180 TC; bao gồm hai bậc trìn h độ: Cử nhân (thời gian đào tạo 4 năm, trình độ đại học, cấp bằng cử nhân) và Kỹ sư (thời gian đào tạo 1,5 năm, cấp bằng kỹ sư, tương đương trình độ thạc sĩ). Tính tích hợp được thể hiện bằng việc thiết kế các mô đun học phần trong chương trình cử nhân có kiến thức nền tảng liên quan chặt chẽ đến các chuyên ngành kỹ sư. 4. Chương trình ELITECH (từ viết tắt của cụm từ Elite Techn ology Program) là CTĐT chất lượng cao (tên gọi theo Thông tư 23/2014/TT-BGDĐT), thể hiện ở một số yếu tố sau: chất lượng đầu vào; ch uẩn đầu ra; giá trị văn bằng tốt nghiệp; phương thức tổ chức đào tạo; điều kiện hỗ trợ đào tạo; nội dung, phương pháp và ngôn ngữ dạy và học. Chương trình EL",
+    "context_ids": [
+      "B_QCDT_2023_p5_5"
+    ],
+    "context_chars": 1090,
+    "elapsed_ms": 8.64440000441391,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "DEV_13",
+    "split": "dev",
+    "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định tại Điều 3 về thời gian và kế hoạch học tập nằm ở trang nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2025",
+        "page": 7,
+        "evidence": "Điều 3. Thời gian và kế hoạch học tập"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p24_146",
+        "text": "20 3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt quá 30 TC.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 24,
+        "metadata": {
+          "year": 2025,
+          "strategy": "B_Structure",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "document_id": "QCDT_2025",
+          "section": "Phần mở đầu",
+          "page": 24
+        },
+        "score": 0.8075105747050533,
+        "distance": 0.23837387561798096,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p5_92",
+        "text": "BỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ ĐÀO TẠO (Ban hành kèm theo Quyết định số /QĐ-ĐHBK, ngày tháng năm 2025 của Giám đốc Đại học Bách khoa Hà Nội) CHƯƠNG I NHỮNG QUY ĐỊNH CHUNG",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 5,
+        "metadata": {
+          "section": "Phần mở đầu",
+          "document_id": "QCDT_2025",
+          "strategy": "B_Structure",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "page": 5
+        },
+        "score": 0.8010680132699503,
+        "distance": 0.24833345413208008,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p34_178",
+        "text": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo ban hành theo Quyết định số 4600/QĐ-ĐHBK ngày 09 tháng 6 năm 2023 của Giám đốc ĐHBK Hà Nội. 2. Quy chế này được áp dụng từ học kỳ 1 năm học 2025-2026 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau: a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022. b) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025. c) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022. d) Khoản 1 Điều 24 (về điểm trung bình toàn khóa CTĐT kỹ sư) được áp dụng từ học kỳ 2 năm học 2024-2025.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 34,
+        "metadata": {
+          "page": 34,
+          "section": "Điều 48. Hiệu lực thi hành 1.",
+          "document_id": "QCDT_2025",
+          "year": 2025,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure"
+        },
+        "score": 0.792791975424852,
+        "distance": 0.2613649368286133,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p24_146 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 24]\n20 3. Kết quả học tập có giá trị công nhận trong thời hạn 5 năm. Tổng số TC của các học phần được công nhận không vượt quá 30 TC.\n\n[B_QCDT_2025_p5_92 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 5]\nBỘ GIÁO DỤC VÀ ĐÀO TẠO ĐẠI HỌC BÁCH KHOA HÀ NỘI CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc QUY CHẾ ĐÀO TẠO (Ban hành kèm theo Quyết định số /QĐ-ĐHBK, ngày tháng năm 2025 của Giám đốc Đại học Bách khoa Hà Nội) CHƯƠNG I NHỮNG QUY ĐỊNH CHUNG\n\n[B_QCDT_2025_p34_178 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 34]\nĐiều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo ban hành theo Quyết định số 4600/QĐ-ĐHBK ngày 09 tháng 6 năm 2023 của Giám đốc ĐHBK Hà Nội. 2. Quy chế này được áp dụng từ học kỳ 1 năm học 2025-2026 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau: a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022. b) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025. c) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022. d) Khoản 1 Điều 24 (về điểm trung bình toàn khóa CTĐT kỹ sư) được áp dụng từ học kỳ 2 năm học 2024-2025.",
+    "context_ids": [
+      "B_QCDT_2025_p24_146",
+      "B_QCDT_2025_p5_92",
+      "B_QCDT_2025_p34_178"
+    ],
+    "context_chars": 1422,
+    "elapsed_ms": 21.47079999849666,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_14",
+    "split": "dev",
+    "question": "Trong văn bản năm 2023, quy định về học cùng lúc hai chương trình tại Điều 18 nằm ở trang nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2023",
+        "page": 16,
+        "evidence": "Điều 18. Học cùng lúc hai chương trình"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2023_p4_4",
+        "text": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo. 3 Quy chế tuyển sinh và đào tạo trình độ tiến sĩ, ban hành theo Thông tư số 18/2021/TT-BGDĐT ngày 28 tháng 6 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo. 4 Danh mục thống kê ngành đào tạ o của giáo dục đại học ban hành theo Thông tư số 09/2022/TT-BGDĐT ngày 06 tháng 6 năm 2022 của Bộ trưởng Bộ Giáo dục và Đào tạo.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 4,
+        "metadata": {
+          "year": 2023,
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "strategy": "B_Structure",
+          "page": 4,
+          "document_id": "QCDT_2023",
+          "section": "Điều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp)"
+        },
+        "score": 0.795069561174832,
+        "distance": 0.25775158405303955,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p32_91",
+        "text": "29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Những sinh viên thuộc các khóa 64 trở về trước tốt nghiệp chương trình kỹ sư với thời gian học tập chuẩn 5 năm, khối lượng từ 156 -164 TC được cấp văn bằ ng kỹ sư bậc đại học theo Quyết định số 66/QĐ -ĐHBK-ĐT ngày 04/12/2018 của Hiệu trưởng Trường ĐHBK Hà Nội. 2. Các quy chế, quy định về đào tạo trước đây trái với các điều, khoản của Quy chế này đều hết hiệu lực thi hành./.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 32,
+        "metadata": {
+          "section": "Nội dung tiếp nối",
+          "document_id": "QCDT_2023",
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "year": 2023,
+          "strategy": "B_Structure",
+          "page": 32
+        },
+        "score": 0.7859307235603792,
+        "distance": 0.27237677574157715,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2023_p31_90",
+        "text": "Điều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau: a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022.",
+        "source_id": "QCDT_2023",
+        "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+        "page": 31,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023",
+          "year": 2023,
+          "page": 31,
+          "document_id": "QCDT_2023",
+          "strategy": "B_Structure",
+          "section": "Điều 47. Hiệu lực thi hành 1."
+        },
+        "score": 0.7804694693457431,
+        "distance": 0.2812801003456116,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2023_p4_4 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 4]\nĐiều 2. Ngành đào tạo, chương trình đào tạo 1. (tiếp): số 23/2021/TT -BGDĐT ngày 30 tháng 8 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo. 3 Quy chế tuyển sinh và đào tạo trình độ tiến sĩ, ban hành theo Thông tư số 18/2021/TT-BGDĐT ngày 28 tháng 6 năm 2021 của Bộ trưởng Bộ Giáo dục và Đào tạo. 4 Danh mục thống kê ngành đào tạ o của giáo dục đại học ban hành theo Thông tư số 09/2022/TT-BGDĐT ngày 06 tháng 6 năm 2022 của Bộ trưởng Bộ Giáo dục và Đào tạo.\n\n[B_QCDT_2023_p32_91 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 32]\n29 b) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trì nh) được áp dụng với các khóa tuyển sinh từ năm 2022. c) Những sinh viên thuộc các khóa 64 trở về trước tốt nghiệp chương trình kỹ sư với thời gian học tập chuẩn 5 năm, khối lượng từ 156 -164 TC được cấp văn bằ ng kỹ sư bậc đại học theo Quyết định số 66/QĐ -ĐHBK-ĐT ngày 04/12/2018 của Hiệu trưởng Trường ĐHBK Hà Nội. 2. Các quy chế, quy định về đào tạo trước đây trái với các điều, khoản của Quy chế này đều hết hiệu lực thi hành./.\n\n[B_QCDT_2023_p31_90 | Quy chế đào tạo kèm Quyết định 4600/QĐ-ĐHBK ngày 09/06/2023 | page 31]\nĐiều 47. Hiệu lực thi hành 1. Quy chế này được áp dụng từ năm học 2023-2024 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau: a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022.",
+    "context_ids": [
+      "B_QCDT_2023_p4_4",
+      "B_QCDT_2023_p32_91",
+      "B_QCDT_2023_p31_90"
+    ],
+    "context_chars": 1471,
+    "elapsed_ms": 12.553299995488487,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "DEV_15",
+    "split": "dev",
+    "question": "Theo văn bản Quy chế năm 2025, quy định tại Điều 23 về đăng ký tốt nghiệp kỹ sư nằm ở trang nào?",
+    "retriever": "dense_chroma",
+    "top_k": 3,
+    "budget_chars": 1500,
+    "gold": [
+      {
+        "source_id": "QCDT_2025",
+        "page": 20,
+        "evidence": "Điều 23. Đăng ký tốt nghiệp kỹ sư"
+      }
+    ],
+    "results": [
+      {
+        "id": "B_QCDT_2025_p25_150",
+        "text": "21 hoàn toàn bằng ngôn ngữ nước ngoài. Yêu cầu ngoại ngữ đầu vào và ngoại ngữ đầu ra phải cùng một ngôn ngữ. 3. Người hướng dẫn và phản biện xác nhận bản thảo luận văn đã đáp ứng đầy đủ các yêu cầu về chất lượng và nội dung khoa học để đưa ra bảo vệ.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 25,
+        "metadata": {
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "year": 2025,
+          "strategy": "B_Structure",
+          "section": "Phần mở đầu",
+          "document_id": "QCDT_2025",
+          "page": 25
+        },
+        "score": 0.7783642304277343,
+        "distance": 0.28474557399749756,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p34_177",
+        "text": "Điều 47. Quy định chuyển tiếp 1. Đối với các khoá tuyển sinh có quyết định công nhận NCS sau ngày 01 tháng 8 năm 2025, ĐHBK Hà Nội thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm thông tư số 18/2021/TT -BGDĐT ngày 28 tháng 6 năm 2021 của Bộ trưởng Bộ GDĐT và Quy chế này. 2. Đối với các khoá tuyển sinh có quyết định công nhận NCS trong khoảng thời gian từ ngày 15 tháng 8 năm 2021 đến trước ngày 01 tháng 8 năm 2025, ĐHBK Hà Nội thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm thông tư số 18/2021/TT-BGDĐT ngày 28 tháng 6 năm 2021 của Bộ trưởng Bộ GDĐT và Quy chế đào tạo ban hành kèm theo Quyết định số 3095/QĐ-ĐHBK-ĐT ngày 22 tháng 12 năm 2021 của Hiệu trưởng Trường ĐHBK Hà Nội. 3. Đối với các khoá tuyển sinh đã có quyết định công nhận NCS trước ngày 15 tháng 8 năm 2021, ĐHBK Hà Nội thực hiện theo quy định của Quy chế tuyển sinh và đào tạo trình độ tiến sĩ ban hành kèm theo Thông tư số 08/2017/TT-BGDĐT ngày 14 tháng 4 năm 2017 của Bộ trưởng Bộ GDĐT và Quy định số 2764/QĐ -ĐHBK-SĐH ngày 28 tháng 8 năm 2017 của Hiệu trưởng Trường ĐHBK Hà Nội.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 34,
+        "metadata": {
+          "year": 2025,
+          "document_id": "QCDT_2025",
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure",
+          "section": "Điều 47. Quy định chuyển tiếp 1.",
+          "page": 34
+        },
+        "score": 0.7733080917120434,
+        "distance": 0.29314565658569336,
+        "retriever": "dense_chroma",
+        "hit": false
+      },
+      {
+        "id": "B_QCDT_2025_p34_178",
+        "text": "Điều 48. Hiệu lực thi hành 1. Quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026 và thay thế Quy chế đào tạo ban hành theo Quyết định số 4600/QĐ-ĐHBK ngày 09 tháng 6 năm 2023 của Giám đốc ĐHBK Hà Nội. 2. Quy chế này được áp dụng từ học kỳ 1 năm học 2025-2026 cho tất cả các khóa đào tạo, trừ một số điều, khoản như sau: a) Điểm a khoản 2 Điều 15 (về việc giảm hạng tốt nghiệp) được áp dụng với các khóa tuyển sinh từ năm 2022. b) Khoản 1, khoản 2 và khoản 3 Điều 17 (về việc chuyển chương trình đào tạo) được áp dụng từ học kỳ 2 năm học 2024-2025. c) Khoản 2 Điều 18 (về việc học cùng lúc hai chương trình) được áp dụng với các khóa tuyển sinh từ năm 2022. d) Khoản 1 Điều 24 (về điểm trung bình toàn khóa CTĐT kỹ sư) được áp dụng từ học kỳ 2 năm học 2024-2025.",
+        "source_id": "QCDT_2025",
+        "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+        "page": 34,
+        "metadata": {
+          "page": 34,
+          "source": "Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025",
+          "strategy": "B_Structure",
+          "year": 2025,
+          "document_id": "QCDT_2025",
+          "section": "Điều 48. Hiệu lực thi hành 1."
+        },
+        "score": 0.7697261522391095,
+        "distance": 0.2991633415222168,
+        "retriever": "dense_chroma",
+        "hit": false
+      }
+    ],
+    "context": "[B_QCDT_2025_p25_150 | Quy chế đào tạo kèm Quyết định 5445/QĐ-ĐHBK năm 2025 | page 25]\n21 hoàn toàn bằng ngôn ngữ nước ngoài. Yêu cầu ngoại ngữ đầu vào và ngoại ngữ đầu ra phải cùng một ngôn ngữ. 3. Người hướng dẫn và phản biện xác nhận bản thảo luận văn đã đáp ứng đầy đủ các yêu cầu về chất lượng và nội dung khoa học để đưa ra bảo vệ.",
+    "context_ids": [
+      "B_QCDT_2025_p25_150"
+    ],
+    "context_chars": 337,
+    "elapsed_ms": 9.590100002242252,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

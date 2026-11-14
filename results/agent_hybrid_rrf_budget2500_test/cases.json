@@ -1,0 +1,53 @@
+[
+  {
+    "id": "TEST_01",
+    "split": "test",
+    "question": "Sinh viên đang bị cảnh báo học tập mức 1 và mức 2 được hạ một mức cảnh báo khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "TEST_02",
+    "split": "test",
+    "question": "Sinh viên bị cảnh báo học tập mức 3 được hạ xuống mức 2 trong trường hợp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "TEST_03",
+    "split": "test",
+    "question": "Tại thời điểm đăng ký học chương trình thứ hai, sinh viên phải có điểm trung bình tích lũy CPA xếp loại gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "TEST_04",
+    "split": "test",
+    "question": "Đối với học phần đồ án hoặc khóa luận tốt nghiệp, điểm số dưới bao nhiêu thì bị coi là điểm liệt?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "TEST_05",
+    "split": "test",
+    "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định xử lý vi phạm đối với sinh viên được ghi nhận tại Điều 20 ở trang nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "TEST_UNANS_01",
+    "split": "test",
+    "question": "Quy định chi tiết về thời gian đóng mở cổng trường Đại học Bách khoa Hà Nội vào các ngày nghỉ lễ Tết như thế nào?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là Quy chế đào tạo, không quy định về công tác an ninh trật tự hay giờ đóng mở cổng trường.",
+    "answerable": false
+  },
+  {
+    "id": "TEST_UNANS_02",
+    "split": "test",
+    "question": "Thủ tục xin cấp thẻ gửi xe tháng và mức phí gửi xe máy đối với sinh viên nội trú là bao nhiêu?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế đào tạo không có điều khoản quy định về dịch vụ trông giữ xe hoặc phí vé xe.",
+    "answerable": false
+  }
+]

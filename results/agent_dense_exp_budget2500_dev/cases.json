@@ -1,0 +1,123 @@
+[
+  {
+    "id": "DEV_01",
+    "split": "dev",
+    "question": "Theo quy định, một năm học tại ĐHBK Hà Nội bao gồm những học kỳ nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_02",
+    "split": "dev",
+    "question": "Sinh viên bị nâng một mức cảnh báo học tập khi có số tín chỉ không đạt trong học kỳ là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_03",
+    "split": "dev",
+    "question": "Sinh viên bị áp dụng cảnh báo học tập mức 3 khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_04",
+    "split": "dev",
+    "question": "Học kỳ hè có xem xét cảnh báo học tập đối với sinh viên không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_05",
+    "split": "dev",
+    "question": "Sinh viên thuộc CTĐT chuẩn bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ trong một học kỳ chính?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_06",
+    "split": "dev",
+    "question": "Sinh viên chương trình ELITECH bị hạn chế khối lượng học tập được đăng ký tối đa bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_07",
+    "split": "dev",
+    "question": "Trường hợp nào sinh viên bị buộc thôi học do cảnh báo học tập?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_08",
+    "split": "dev",
+    "question": "Sinh viên được phép đăng ký học chương trình thứ hai sớm nhất khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_09",
+    "split": "dev",
+    "question": "Điểm đạt của học phần là từ điểm chữ nào trở lên?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_10",
+    "split": "dev",
+    "question": "Luận văn thạc sĩ đạt yêu cầu khi điểm bảo vệ đạt từ mức nào theo thang điểm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_11",
+    "split": "dev",
+    "question": "Khung kế hoạch thời gian năm học của ĐHBK Hà Nội áp dụng cho đối tượng nào, ngoại trừ trường hợp nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_12",
+    "split": "dev",
+    "question": "Chương trình tích hợp cử nhân - kỹ sư có thời gian thiết kế là bao nhiêu năm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_13",
+    "split": "dev",
+    "question": "Theo Quy chế đào tạo ban hành năm 2025, quy định tại Điều 3 về thời gian và kế hoạch học tập nằm ở trang nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_14",
+    "split": "dev",
+    "question": "Trong văn bản năm 2023, quy định về học cùng lúc hai chương trình tại Điều 18 nằm ở trang nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_15",
+    "split": "dev",
+    "question": "Theo văn bản Quy chế năm 2025, quy định tại Điều 23 về đăng ký tốt nghiệp kỹ sư nằm ở trang nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "DEV_UNANS_01",
+    "split": "dev",
+    "question": "Mức học phí chi tiết theo từng tín chỉ của chương trình tiên tiến năm học 2024-2025 là bao nhiêu triệu đồng?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu Quy chế đào tạo (QCDT_2023 và QCDT_2025) chỉ quy định về khung chương trình đào tạo, chuẩn đầu ra và cảnh báo học tập, hoàn toàn không chứa biểu phí học phí chi tiết.",
+    "answerable": false
+  },
+  {
+    "id": "DEV_UNANS_02",
+    "split": "dev",
+    "question": "Sinh viên Đại học Bách khoa Hà Nội có được phép nuôi thú cưng (chó, mèo) trong phòng ký túc xá không?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là Quy chế đào tạo, không bao gồm nội quy quản lý ký túc xá hay quy định về thú cưng.",
+    "answerable": false
+  }
+]
